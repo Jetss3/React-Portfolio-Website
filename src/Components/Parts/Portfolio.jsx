@@ -30,7 +30,7 @@ function PortfolioSection() {
 
         <div>
           <h3 className="timeline-text-domin">
-            /Games&Media/
+            /Games & Media/
           </h3>
         </div>
           <div className="cardsholder">
