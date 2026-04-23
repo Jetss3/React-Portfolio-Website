@@ -45,7 +45,7 @@ function PortfolioSection() {
                 One of these games is available on Github:
                   <br></br>
 
-                <a href="https://github.com/DoctorBlobs/Beat-Em-UP-Godot-3.4" target="Github" rel="noopener noreferrer">
+                <a href="https://github.com/Jetss3/Beat-Em-UP-Godot-3.4" target="Github" rel="noopener noreferrer">
                   <Button
                     variant="link"
                     // onClick={() => handleShowModal('modal2')}
@@ -55,15 +55,6 @@ function PortfolioSection() {
                   </a>
               </Card.Text>
             </Card.Body>
-
-            {/* <Modal show={modalState['modal2']} onHide={() => handleCloseModal('modal2')}>
-              <Modal.Header closeButton>
-                <Modal.Title className="modaltext">Godot Games</Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
-                <p>Modal 2 body text goes here.</p>
-              </Modal.Body>
-            </Modal>      */}
           </Card>
 
           <Card className=" portcard text-center">
@@ -76,7 +67,7 @@ function PortfolioSection() {
               <Card.Text>
                 Three of these games are available on Github:
 
-                  <a href="https://github.com/DoctorBlobs/VGuns-Unity-VR" target="Github" rel="noopener noreferrer">
+                  <a href="https://github.com/Jetss3/VGuns-Unity-VR" target="Github" rel="noopener noreferrer">
                   <Button
                     variant="link"
                     // onClick={() => handleShowModal('modal2')}
@@ -85,7 +76,7 @@ function PortfolioSection() {
                   </Button>
                   </a>
 
-                  <a href="https://github.com/DoctorBlobs/KTANE-Unity-GameJam" target="Github" rel="noopener noreferrer">
+                  <a href="https://github.com/Jetss3/KTANE-Unity-GameJam" target="Github" rel="noopener noreferrer">
                   <Button
                     variant="link"
                     // onClick={() => handleShowModal('modal2')}
@@ -94,7 +85,7 @@ function PortfolioSection() {
                   </Button>
                   </a>
 
-                  <a href="https://github.com/DoctorBlobs/Deminic-GameBeats-Unity-2023-GameJAM" target="Github" rel="noopener noreferrer">
+                  <a href="https://github.com/Jetss3/Deminic-GameBeats-Unity-2023-GameJAM" target="Github" rel="noopener noreferrer">
                   <Button
                     variant="link"
                     // onClick={() => handleShowModal('modal2')}
@@ -106,16 +97,6 @@ function PortfolioSection() {
 
 
             </Card.Body>
-
-              {/* <Modal show={modalState['modal3']} onHide={() => handleCloseModal('modal3')}>
-              <Modal.Header closeButton>
-                <Modal.Title className="modaltext">Unity (VR) Games</Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
-                <p>Modal 3 body text goes here.</p>
-              </Modal.Body>
-            </Modal> */}
-
           </Card>
 
           <Card className=" portcard text-center">
@@ -131,7 +112,7 @@ function PortfolioSection() {
 
                <br></br> 
 
-              <a href="https://github.com/DoctorBlobs/Blender-Projects/" target="Github" rel="noopener noreferrer">
+              <a href="https://github.com/Jetss3/Blender-Projects/" target="Github" rel="noopener noreferrer">
               <Button
                 variant="link"
                 // onClick={() => handleShowModal('modal2')}
@@ -141,15 +122,42 @@ function PortfolioSection() {
               </a>
               </Card.Text>
             </Card.Body>
+          </Card>
 
-              {/* <Modal show={modalState['modal5']} onHide={() => handleCloseModal('modal5')}>
-              <Modal.Header closeButton>
-                <Modal.Title className="modaltext">Blender Animations & Modelling</Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
-                <p>Modal 4 body text goes here.</p>
-              </Modal.Body>
-            </Modal> */}
+          
+          <Card className=" portcard text-center">
+            <Card.Img variant="top" src="./Images/Extinguished.jpg" />
+            <Card.Body>
+              <Card.Title>Extinguished</Card.Title>
+              <Card.Text>
+                I worked on a small horror game for CreaTe with 3 other people, called Extinguished.
+                The game will start at the top of the lighthouse and go down the proverbial rabbit hole.
+              </Card.Text>
+
+              <Card.Text>
+                Check it out here:
+
+               <br></br> 
+
+              <a href="https://www.youtube.com/watch?v=CzKepFMgUYo" target="Youtube" rel="noopener noreferrer">
+              <Button
+                variant="link"
+                // onClick={() => handleShowModal('modal2')}
+              >
+                Game Trailer
+              </Button>
+              </a>
+
+                            <a href="https://jorkey.itch.io/extinguished" target="Itch" rel="noopener noreferrer">
+              <Button
+                variant="link"
+                // onClick={() => handleShowModal('modal2')}
+              >
+                Itch Page
+              </Button>
+              </a>
+              </Card.Text>
+            </Card.Body>
           </Card>
         </div>
 
@@ -178,20 +186,6 @@ function PortfolioSection() {
               </a>
             </Card.Body>
 
-            {/* <Modal show={modalState['modal4']} onHide={() => handleCloseModal('modal4')}>
-            <Modal.Header closeButton>
-              <Modal.Title className="modaltext">Multiple Websites (HTML, CSS, JS & React)</Modal.Title>
-            </Modal.Header>
-            <Modal.Body className='modal-body'>
-              <p>Modal 4 body text goes here.</p>
-              <a href="https://bobbyhadz.com" target="_blank" rel="noopener noreferrer">
-              <Button>
-                More
-              </Button>
-              </a>
-              
-            </Modal.Body>
-          </Modal> */}
           </Card>
 
           <Card className=" portcard text-center">
@@ -204,16 +198,6 @@ function PortfolioSection() {
               </a>.
               </Card.Text>
             </Card.Body>
-
-              {/* <Modal show={modalState['modal5']} onHide={() => handleCloseModal('modal5')}>
-              <Modal.Header closeButton>
-                <Modal.Title className="modaltext">VU C++ Course</Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
-                <p>Modal 4 body text goes here.</p>
-                <p>image from u/0xTJ</p>
-              </Modal.Body>
-            </Modal> */}
 
           </Card>
 
@@ -235,15 +219,6 @@ function PortfolioSection() {
               </a> 
             </Card.Body>
 
-              {/* <Modal show={modalState['modal5']} onHide={() => handleCloseModal('modal5')}>
-              <Modal.Header closeButton>
-                <Modal.Title className="modaltext">VU C++ Course</Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
-                <p>Modal 4 body text goes here.</p>
-                <p>image from u/0xTJ</p>
-              </Modal.Body>
-            </Modal> */}
 
           </Card>
 
@@ -267,15 +242,6 @@ function PortfolioSection() {
 
             </Card.Body>
 
-              {/* <Modal show={modalState['modal5']} onHide={() => handleCloseModal('modal5')}>
-              <Modal.Header closeButton>
-                <Modal.Title className="modaltext">VU C++ Course</Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
-                <p>Modal 4 body text goes here.</p>
-                <p>image from u/0xTJ</p>
-              </Modal.Body>
-            </Modal> */}
 
           </Card>
 
@@ -288,35 +254,7 @@ function PortfolioSection() {
         </div>
 
         <div className='cardsholder'>
-          <Card className=" card text-center">
-            <Card.Body>
-              <Card.Title>China's Surveillance systems: a paper</Card.Title>
-              <Card.Text>
-                    I wrote a paper with a classmate about China's surveillance system as my final end 'dissertation' for highschool.
-              </Card.Text>
-              <a href="https://drive.google.com/file/d/1TQf4TSH73vsjAW-ZWd14E2sC0FDlWO04/view?usp=sharing" target="Github" rel="noopener noreferrer">
-              <Button
-                variant="link"
-                // onClick={() => handleShowModal('modal2')}
-              >
-                Read
-              </Button>
-              </a>
-            </Card.Body>
-            <Card.Img variant="top" src="./Images/Dissertation.png" />
-
-
-            {/* <Modal className="modaldialouge" show={modalState['modal1']} onHide={() => handleCloseModal('modal1')}>
-              <Modal.Header closeButton>
-                <Modal.Title className="modaltext">Camera Face Recognition</Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
-                <img alt="monke" src="./Images/Dissertation.png"/>
-                <p>Modal 1 body text goes here.</p>
-              </Modal.Body>
-            </Modal> */}
-            
-          </Card>
+          
 
           <Card className=" card text-center">
               <Card.Body>
@@ -324,7 +262,7 @@ function PortfolioSection() {
               <Card.Text>
                     I made a Facial Recognition program, using the ResNetV1 Tensorflow algorithm from David Sandberg.
               </Card.Text>
-              <a href="https://github.com/DoctorBlobs/Camera-Facial-Recognition-System-Python" target="Github" rel="noopener noreferrer">
+              <a href="https://github.com/Jetss3/Camera-Facial-Recognition-System-Python" target="Github" rel="noopener noreferrer">
               <Button
                 variant="link"
                 // onClick={() => handleShowModal('modal2')}
@@ -343,19 +281,56 @@ function PortfolioSection() {
               </a>
             </Card.Body>
             <Card.Img variant="top" src="./Images/FaceRec.png" />
-
-
-            {/* <Modal className="modaldialouge" show={modalState['modal1']} onHide={() => handleCloseModal('modal1')}>
-              <Modal.Header closeButton>
-                <Modal.Title className="modaltext">Camera Face Recognition</Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
-                <img alt="monke" src="./Images/FaceRec.png"/>
-                <p>Modal 1 body text goes here.</p>
-              </Modal.Body>
-            </Modal> */}
-            
           </Card>
+
+
+<Card className=" card text-center">
+            <Card.Body>
+              <Card.Title>China's Surveillance systems: a paper</Card.Title>
+              <Card.Text>
+                    I wrote a paper with a classmate about China's surveillance system as my final report for highschool.
+              </Card.Text>
+              <a href="https://drive.google.com/file/d/1TQf4TSH73vsjAW-ZWd14E2sC0FDlWO04/view?usp=sharing" target="Github" rel="noopener noreferrer">
+              <Button
+                variant="link"
+                // onClick={() => handleShowModal('modal2')}
+              >
+                Read
+              </Button>
+              </a>
+            </Card.Body>
+            <Card.Img variant="top" src="./Images/Dissertation.png" />
+          </Card>
+
+
+          <Card className=" card text-center">
+              <Card.Body>
+              <Card.Title>'Where is Waldo?' CNN Detection</Card.Title>
+              <Card.Text>
+                    Together with a teammate we made a lightweight CNN to look for Waldo within a picture of a book; with a fucntional gui and made to use a remote camera shooting utility.
+              </Card.Text>
+              <a href="https://github.com/Jetss3/Where-is-Waldo-CNN-Detector/" target="Github" rel="noopener noreferrer">
+              <Button
+                variant="link"
+                // onClick={() => handleShowModal('modal2')}
+              >
+                Github Repository
+              </Button>
+              </a>
+
+            <a href="https://www.linkedin.com/posts/jetze-hettema-6b1551293_for-module-7-of-create-hands-on-ai-silvan-ugcPost-7452846308714835970-Lxxb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEcYC6UBa8D98SQjZAd2yh3TJQ1_17e2wi0
+            " target="Github" rel="noopener noreferrer">
+              <Button
+                variant="link"
+                // onClick={() => handleShowModal('modal2')}
+              >
+                LinkedIn post
+              </Button>
+              </a>
+            </Card.Body>
+            <Card.Img variant="top" src="./Images/Waldo.png" />
+          </Card>
+
           </div>
 
         <div>
@@ -382,7 +357,7 @@ function PortfolioSection() {
               </Button>
               </a>
 
-              <a href="https://github.com/DoctorBlobs/React-Portfolio-Website/tree/main" target="Github" rel="noopener noreferrer">
+              <a href="https://github.com/Jetss3/React-Portfolio-Website/tree/main" target="Github" rel="noopener noreferrer">
               <Button
                 variant="link"
                 // onClick={() => handleShowModal('modal2')}
@@ -409,21 +384,6 @@ function PortfolioSection() {
               </Button>
               </a>
             </Card.Body>
-
-            {/* <Modal show={modalState['modal4']} onHide={() => handleCloseModal('modal4')}>
-            <Modal.Header closeButton>
-              <Modal.Title className="modaltext">Multiple Websites (HTML, CSS, JS & React)</Modal.Title>
-            </Modal.Header>
-            <Modal.Body className='modal-body'>
-              <p>Modal 4 body text goes here.</p>
-              <a href="https://bobbyhadz.com" target="_blank" rel="noopener noreferrer">
-              <Button>
-                More
-              </Button>
-              </a>
-              
-            </Modal.Body>
-          </Modal> */}
           </Card>
         </div>
         </div>
