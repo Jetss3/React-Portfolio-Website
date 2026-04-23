@@ -19,12 +19,12 @@ function ContactSection() {
       <div id="contact">
         <div id="contactlinks">If you want to see more or you'd like to contact me, use the links below:</div>
         <div id="contactlinks">
-          <a class="contactlink" target="_blank" href="https://youtube.com/@Doctorblobs">
+          <a class="contactlink" target="_blank" href="https://www.youtube.com/@J3tss">
               <img src={ytl} alt="The Youtube logo" /> 
               Youtube
           </a>
 
-          <a class="contactlink" target="_blank" href="https://github.com/Stalking-Sugar"> 
+          <a class="contactlink" target="_blank" href="https://github.com/Jetss3/"> 
             <img src={gitl} alt="The GitHub logo"/> 
             GitHub
           </a>
