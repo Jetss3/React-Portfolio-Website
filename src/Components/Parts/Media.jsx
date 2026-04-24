@@ -8,31 +8,29 @@ import '../Section.css';
 import WIP from '../../SourceFiles/WIP.jpg';
 
 function MediaSection() {
-    return(
+  return (
     <div class="mediaContainer">
-      
-          <div className='lefttext medialeft '>
-            <h3 class="whiteText medialeft-text">I like working on small media projects like songs, video's and games.
-                                  <br></br>
-                                  <br></br>
-                                  Some of my interests include making my own 3D modelling and animation, playing the guitar, reading horror & sci-fi books and freerunning. 
-                                  {/* <br></br>
-                                  <br></br>
-                                  If you have a certain IKEA Shark hand it over. It is mine now. */}
-            </h3>
-          </div>
 
-          <div className='mediaright'>
-            {/* <img className='rightimage' scr={WIP}/> */}
-            
-            <div className='YoutubeVideo'>
-              <LiteYoutubeEmbed playlabel="Example Video" mute='false' id={''}/>
-            </div>
-            
-          </div>
+      <div className='lefttext medialeft '>
+        <h3 class="whiteText medialeft-text">
+          I've used Blender, Unity and Godot and have programmed in C#, C++, Python, React and GDScript.
+          <br></br>
+          <br></br>
+          Some of my interests include Games, their development and the industry; playing guitar, reading (Roadside Picnic & The King in Yellow are one of my favorites ) and sports.
+        </h3>
+      </div>
+
+      <div className='mediaright'>
+        {/* <img className='rightimage' scr={WIP}/> */}
+
+        <div className='YoutubeVideo'>
+          <LiteYoutubeEmbed playlabel="Example Video" mute='false' id={''} />
         </div>
 
-    )
+      </div>
+    </div>
+
+  )
 }
 
 export default MediaSection

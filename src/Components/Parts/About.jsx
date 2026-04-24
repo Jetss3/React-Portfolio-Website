@@ -7,33 +7,31 @@ import '../../App.css';
 import '../Section.css';
 
 function AboutSection() {
-    return(
+  return (
     <div className='about'>
       <div className='text-video-container'>
 
         {/* <div className='textimg'> */}
-          <img className='textimg' src="./Images/Setup2.jpg"/>
+        <img className='textimg' src="./Images/Setup2.jpg" />
         {/* </div> */}
-              
-      {/* <div className='backdrop-blur' /> */}
-      {/* <video className='textvid' autoPlay loop muted>
+
+        {/* <div className='backdrop-blur' /> */}
+        {/* <video className='textvid' autoPlay loop muted>
         <source src={bgVideo} type="video/mp4" autoPlay muted />
       </video> */}
 
-    
-      <div class=" w-about-container">
-        <img src={noodle} alt="A cool Gif" class="aboutgif"/>
+
+        <div class=" w-about-container">
+          <img src={noodle} alt="A cool Gif" class="aboutgif" />
+
           <h3 className='abouttext'>
-              My name is Jetze Hettema,
-              I'm a student who studies Creative Technology at the UT (University Twente).
-              <br></br>
-              <br></br>
-              I've used Blender, Unity and Godot and have programmed in C#, C++, Python, React and GDScript.
-          </h3>
-      </div>
+            My name is Jetze Hettema; I study Creative Technology at the University
+            of Twente.
+            I have quite some experience in communication, hospitality and working on smaller game development projects.          </h3>
+        </div>
       </div>
     </div>
-    )
+  )
 }
 
 export default AboutSection
